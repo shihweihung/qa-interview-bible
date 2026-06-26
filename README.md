@@ -1,12 +1,44 @@
 # QA Interview Bible
 
-A professional documentation site for QA knowledge, interview preparation, testing strategy, and career growth.
+QA Interview Bible is a long-term public knowledge base for software quality, testing, and engineering communication. It is designed to be professional, reusable, and safe to share with future employers.
 
-## Overview
+## Repository purpose
 
-This repository is built with MkDocs Material and organized as a reusable knowledge base for software quality professionals. It is designed to grow into a structured reference covering hands-on QA topics, interview preparation, leadership notes, real bug case studies, and company research.
+This repository exists to document durable software engineering knowledge, especially in areas such as:
 
-## Documentation Sections
+- quality engineering fundamentals
+- test strategy and planning
+- automation design
+- API and mobile testing
+- debugging and defect analysis
+- interview preparation
+- technical leadership and communication
+
+The goal is not to preserve company-specific implementation details. The goal is to publish educational material that remains useful across teams, products, and industries.
+
+## Public portfolio standards
+
+This repository is public and should always remain suitable for external readers.
+
+- Never include confidential, proprietary, regulated, or internal-only information.
+- Generalize all examples, incidents, workflows, architectures, and datasets.
+- Focus on transferable engineering reasoning instead of employer-specific process.
+- Write every page so it can teach someone outside the original context.
+
+## Governance documents
+
+Repository governance is defined by the following documents:
+
+- [CONTRIBUTING.md](/Users/swi/qa-interview-bible/CONTRIBUTING.md)
+- [STYLE_GUIDE.md](/Users/swi/qa-interview-bible/STYLE_GUIDE.md)
+- [SECURITY.md](/Users/swi/qa-interview-bible/SECURITY.md)
+- [AI_RULES.md](/Users/swi/qa-interview-bible/AI_RULES.md)
+- [DISCLAIMER.md](/Users/swi/qa-interview-bible/DISCLAIMER.md)
+- [CODE_OF_CONDUCT.md](/Users/swi/qa-interview-bible/CODE_OF_CONDUCT.md)
+
+All contributors should read these files before adding or revising content.
+
+## Documentation sections
 
 - Career
 - Resume
@@ -22,7 +54,19 @@ This repository is built with MkDocs Material and organized as a reusable knowle
 - Company
 - Writing Templates
 
-## Local Preview
+## Writing model
+
+Each article should be:
+
+- educational
+- reusable
+- technically accurate
+- professionally written
+- suitable for a public engineering documentation site
+
+Reusable page templates are available in [docs/writing-templates](/Users/swi/qa-interview-bible/docs/writing-templates).
+
+## Local preview
 
 Create a virtual environment and install dependencies:
 
@@ -46,21 +90,8 @@ Serve the site locally:
 
 ## Deployment
 
-GitHub Actions automatically builds and deploys the documentation site to GitHub Pages on every push to `master`.
+GitHub Actions builds and deploys the documentation site to GitHub Pages on pushes to `master`.
 
-Expected site URL:
+Published site:
 
 - `https://shihweihung.github.io/qa-interview-bible/`
-
-## Writing Workflow
-
-- Content is written in Markdown only.
-- Keep one topic per page.
-- Use lowercase filenames.
-- Use descriptive headings.
-
-Reusable page templates are available in [docs/writing-templates](/Users/swi/qa-interview-bible/docs/writing-templates).
-
-## Contributing
-
-See [CONTRIBUTING.md](/Users/swi/qa-interview-bible/CONTRIBUTING.md) for documentation rules, required article structure, and naming conventions.
