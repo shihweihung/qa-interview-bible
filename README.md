@@ -26,8 +26,7 @@ Quality engineer with hands-on experience leading QA across cross-platform mobil
 |---|---|
 | [About](docs/about/index.md) | QA philosophy, engineering mindset, leadership style |
 | [Resume](docs/resume/index.md) | Full resume in Markdown |
-| [Experience](docs/experience/index.md) | Capabilities: mobile testing, API testing, cross-region collaboration, release management |
-| [Projects](docs/projects/index.md) | Engineering challenges with real context — situation, challenge, solution, outcome |
+| [Projects](docs/projects/index.md) | Engineering case studies — situation, challenge, solution, outcome |
 | [Automation](docs/automation/index.md) | Practical experience with Python, Playwright, Appium, API automation |
 | [AI-Assisted QA](docs/ai-assisted-qa/index.md) | How I integrate AI into daily QA workflows |
 | [Mobile Testing](docs/mobile-testing/index.md) | Mobile-specific QA experience and approach |
