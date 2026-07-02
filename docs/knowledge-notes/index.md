@@ -10,3 +10,4 @@ This section is not a QA wiki. It's a short list of things I've learned that are
 - **[Flaky Test Management](flaky-tests.md)** — How to think about and handle test flakiness
 - **[Release Readiness](release-readiness.md)** — What "ready to release" actually means in practice
 - **[與 DQA 的合作](qa-dqa-collaboration.md)** — System QA 與設計品質驗證如何在硬體產品開發中實際協作
+- **[測試 AI 系統的思維轉變](testing-ai-systems.md)** — 從傳統驗證思維到觀察 AI 行為的方法論，附實際案例
